@@ -11,7 +11,7 @@ function onLoginSubmit(event) {
 
     console.log(username);
 
-    greeting.innerText = "Hello" + username;
+    greeting.innerText = "Hello " + username;
     greeting.classList.remove(HIDDEN_CLASSNAME);
 }
 
