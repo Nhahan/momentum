@@ -89,3 +89,12 @@ const quotes = [{
     quotes: "The life of man (in a state of nature) is solitary, poor, nasty, brutish, and short",
     author: "Thomas Hobbes",
 }];
+
+const quote = document.querySelector("#quote span:first-child");
+const author = document.querySelector("#quote span:last-child");
+
+const todayQuote = quotes[Math.floor(Math.random() * quotes.length)];
+
+quote.innterText = todayQuote.quote;
+quote.innterText = todayQuote.author;
+
